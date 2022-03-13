@@ -1,0 +1,19 @@
+﻿<Window x:Class="BaseLab11._2.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:BaseLab11._2"
+        mc:Ignorable="d"
+        Title="Лабораторная работа №11.2 - Базовый уровень " Height="300" Width="400" FontSize="13" Background="SkyBlue" FontWeight="Bold">
+    <StackPanel Margin="11" VerticalAlignment="Center" >
+        <Label Content="Введите первый катет " FontSize="13" Foreground="DarkBlue" />
+        <TextBox x:Name="FirstText" Background="LightGray"></TextBox>
+        <Label Content="Введите второй катет " FontSize="13" Foreground="DarkBlue"/>
+        <TextBox x:Name="SecondText" Background="LightGray"></TextBox>
+        <Label Content="Введите высоту " FontSize="13" Foreground="DarkBlue"/>
+        <TextBox x:Name="ThirdText" Background="LightGray"></TextBox>
+        <Button Content="Вычислить объем призмы" Margin="14" FontSize="13" Foreground="DarkBlue" Click="ButtonBase_OnClick" />
+        <TextBlock x:Name="Result"></TextBlock>
+    </StackPanel>
+</Window>
